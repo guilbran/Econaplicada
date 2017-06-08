@@ -4,6 +4,8 @@ setwd('C:/Users/guilherme.branco/Downloads/MIP - indicadores')
 
 library(xlsx)
 
+# somente um comentário inicial.
+
 # importo a base de dados
 mip<-as.data.frame(read.csv2('mip_sudamericana_0.csv',row.names = 1))
 legendas<-as.data.frame(read.csv2('legendas.csv',F))
